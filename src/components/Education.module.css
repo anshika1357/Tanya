@@ -1,0 +1,75 @@
+.intro {
+  color: var(--text-muted);
+  margin: 0 0 2.5rem;
+  line-height: 1.7;
+}
+
+.schools {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.school {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.school:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.schoolHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.schoolName {
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.location {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.degree {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.degree a:hover {
+  text-decoration: underline;
+}
+
+.gpa {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.honors {
+  margin: 0 0 0.5rem;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.deansList,
+.activities {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.description {
+  margin: 1rem 0 0;
+  line-height: 1.7;
+  color: var(--text-muted);
+}

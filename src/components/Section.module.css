@@ -1,0 +1,21 @@
+.section {
+  padding: 4rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+}
+
+.inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin: 0 0 2rem;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
